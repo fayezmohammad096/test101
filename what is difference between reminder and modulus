@@ -1,0 +1,13 @@
+Q:what is difference between reminder and modulus?
+=====>
+Remainder is simply the remaining part after the arithmetic division between two integer number whereas Modulus is the sum of remainder and divisor when they are oppositely signed and remaining part after the arithmetic division when remainder and divisor both are of same sign.
+Example of Remainder:
+10 % 3 = 1 [here divisible is 10 which is positively signed so the result will also be positively signed]
+-10 % 3 = -1 [here divisible is -10 which is negatively signed so the result will also be negatively signed]
+10 % -3 = 1 [here divisible is 10 which is positively signed so the result will also be positively signed]
+-10 % -3 = -1 [here divisible is -10 which is negatively signed so the result will also be negatively signed]
+Example of Modulus:
+5 % 3 = 2 [here divisible is 5 which is positively signed so the remainder will also be positively signed and the divisor is also positively signed. As both remainder and divisor are of same sign the result will be same as remainder]
+-5 % 3 = 1 [here divisible is -5 which is negatively signed so the remainder will also be negatively signed and the divisor is positively signed. As both remainder and divisor are of opposite sign the result will be sum of remainder and divisor -2 + 3 = 1]
+5 % -3 = -1 [here divisible is 5 which is positively signed so the remainder will also be positively signed and the divisor is negatively signed. As both remainder and divisor are of opposite sign the result will be sum of remainder and divisor 2 + -3 = -1]
+-5 % -3 = -2 [here divisible is -5 which is negatively signed so the remainder will also be negatively signed and the divisor is also negatively signed. As both remainder and divisor are of same sign the result will be same as remainder]
